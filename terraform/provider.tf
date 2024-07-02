@@ -16,9 +16,3 @@ provider "aws" {
   }
 }
 
-## This is for demo porpuses, for production use, use a remote state backed by Amazon S3
-terraform {
-  backend "local" {
-    path = "terraform.tfstate"
-  }
-}
